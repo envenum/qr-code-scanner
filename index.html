@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Please select QR Coder</h1>
+    <video id="preview" width="400" height="300"></video>
+    <select id="options">
+        <option value="a">A</option>
+        <option value="b">B</option>
+    </select>
+    <p id="output"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsqr/1.4.0/jsQR.js"></script>
+    <script src="script.js"></script>
+    <button type="button" onclick="alert('Capture image!')">Click Me!</button>
+</body>
+</html>
